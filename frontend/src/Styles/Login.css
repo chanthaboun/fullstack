@@ -1,0 +1,176 @@
+/* Styles/Login.css */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes backgroundMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.min-h-screen {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-business-login {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    background-size: 400% 400%;
+    animation: backgroundMove 15s ease infinite;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.rounded {
+    border-radius: 0.5rem;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.animate-background {
+    animation: backgroundMove 10s ease infinite;
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-out;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.left-3 {
+    left: 0.75rem;
+}
+
+.top-3 {
+    top: 0.75rem;
+}
+
+.text-gray-400 {
+    color: #cbd5e0;
+}
+
+.text-gray-700 {
+    color: #4a5568;
+}
+
+.text-blue-500 {
+    color: #3b82f6;
+}
+
+.hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.pl-10 {
+    padding-left: 2.5rem;
+}
+
+.pr-3 {
+    padding-right: 0.75rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.rounded {
+    border-radius: 0.375rem;
+}
+
+.focus\:outline-none:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.focus\:ring:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.focus\:border-blue-300:focus {
+    border-color: #63b3ed;
+}
+
+.bg-blue-500 {
+    background-color: #3b82f6;
+}
+
+.hover\:bg-blue-600:hover {
+    background-color: #2563eb;
+}
+
+.focus\:ring-2:focus {
+    box-shadow: 0 0 0 4px rgba(66, 153, 225, 0.5);
+}
+
+.focus\:ring-blue-400:focus {
+    box-shadow: 0 0 0 4px rgba(66, 153, 225, 0.3);
+}
+
+.focus\:ring-opacity-75:focus {
+    box-shadow: 0 0 0 4px rgba(66, 153, 225, 0.75);
+}
